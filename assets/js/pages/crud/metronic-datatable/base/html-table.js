@@ -23,7 +23,14 @@ var KTDatatableHtmlTableDemo = function() {
 					field: 'OrderDate',
 					type: 'date',
 					format: 'YYYY-MM-DD',
-				}, {
+					
+				},
+				{
+					field: 'OrderDate',
+					type: 'date',
+					format: 'YYYY-MM-DD',
+					
+				},  {
 					field: 'Status',
 					title: 'Status',
 					autoHide: false,

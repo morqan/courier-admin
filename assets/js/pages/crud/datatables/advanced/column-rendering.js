@@ -13,7 +13,7 @@ var KTDatatablesAdvancedColumnRendering = function() {
 					targets: 0,
 					title: 'Agent',
 					render: function(data, type, full, meta) {
-						var number = KTUtil.getRandomInt(1, 14);
+						var number = KTUtil.getRandomInt(1, 8);
 						var user_img = '100_' + number + '.jpg';
 
 						var output;

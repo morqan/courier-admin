@@ -9334,7 +9334,7 @@ var KTLayout = function() {
 		});
 
 		// sample set active menu
-		// asideMenu.setActiveItem($('a[href="?page=custom/pages/pricing/pricing-1&demo=demo1"]').closest('.kt-menu__item')[0]);
+		// asideMenu.setActiveItem($('a[href="?page=custom/pages/pricing/pricing-1"]').closest('.kt-menu__item')[0]);
 	}
 
 	// Sidebar toggle
