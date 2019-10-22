@@ -40,11 +40,13 @@ var KTUppy = function () {
 		}
 
 		var uppyDashboard = Uppy.Core({ 
-			autoProceed: true,
+			debug: true,
+			autoProceed: false,			
 			restrictions: {
 				maxFileSize: 1000000, // 1mb
 				maxNumberOfFiles: 5,
-				minNumberOfFiles: 1
+				minNumberOfFiles: 1,
+				allowedFileTypes: ['image/*', 'video/*']
 			}
 		});
 
@@ -68,6 +70,10 @@ var KTUppy = function () {
 KTUtil.ready(function() {	
 	KTUppy.init();
 });
+
+
+
+
     $('#kt_table_2').DataTable( {
         "responsive": true,
         "scrollX": true,
